@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>RAN Liaison Sankey</title>
+<script src="https://cdn.plot.ly/plotly-2.35.0.min.js"></script>
+<link rel="stylesheet" href="viewer.css">
+</head>
+<body>
+<div class="controls">
+  <label for="dir">Direction:</label>
+  <select id="dir">
+    <option value="all">All</option>
+    <option value="in">In</option>
+    <option value="out">Out</option>
+  </select>
+  <label>Meeting:</label>
+  <div class="radio-group" id="meetings"></div>
+  <label class="toggle-wrap">
+    <input type="checkbox" id="splitOut" />
+    <span>Split LS out by recipients (1/k)</span>
+  </label>
+  <div class="legend">
+    <span class="legend-item"><span class="legend-swatch in"></span> LS in</span>
+    <span class="legend-item"><span class="legend-swatch out"></span> LS out</span>
+  </div>
+</div>
+<div id="chart"></div>
+<div id="modal" class="modal hidden" tabindex="-1" role="dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 id="modalTitle">Flow detail</h3>
+      <button type="button" id="modalClose" class="modal-close">Close</button>
+    </div>
+    <div class="modal-body">
+      <p id="modalFromTo"></p>
+      <p id="modalTotal"></p>
+      <table id="modalTable">
+        <thead><tr><th>Meeting</th><th>Raw</th><th>Displayed</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

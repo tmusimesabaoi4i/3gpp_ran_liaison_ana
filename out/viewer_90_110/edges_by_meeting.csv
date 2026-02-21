@@ -1,0 +1,473 @@
+﻿meeting,dir,from,to,raw_count,weight_raw,weight_split,edge_key
+#100,in,APT Wireless Group (src),RAN,1,1.0,1.0,in|||APT Wireless Group (src)|||RAN
+#100,in,CT1 (src),RAN,1,1.0,1.0,in|||CT1 (src)|||RAN
+#100,in,CT3 (src),RAN,1,1.0,1.0,in|||CT3 (src)|||RAN
+#100,in,CT4 (src),RAN,3,3.0,3.0,in|||CT4 (src)|||RAN
+#100,in,GSMA UPG (src),RAN,1,1.0,1.0,in|||GSMA UPG (src)|||RAN
+#100,in,GSOA (src),RAN,1,1.0,1.0,in|||GSOA (src)|||RAN
+#100,in,ITU-T JCA IMT2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA IMT2020 (src)|||RAN
+#100,in,ITU-T SG11 (src),RAN,1,1.0,1.0,in|||ITU-T SG11 (src)|||RAN
+#100,in,ITU-T SG13 (src),RAN,1,1.0,1.0,in|||ITU-T SG13 (src)|||RAN
+#100,in,ITU-T SG15 (src),RAN,1,1.0,1.0,in|||ITU-T SG15 (src)|||RAN
+#100,in,O-RAN WG9 - Open X-haul Transport Workgroup (src),RAN,1,1.0,1.0,in|||O-RAN WG9 - Open X-haul Transport Workgroup (src)|||RAN
+#100,in,RAN2 (src),RAN,1,1.0,1.0,in|||RAN2 (src)|||RAN
+#100,in,RAN4 (src),RAN,6,6.0,6.0,in|||RAN4 (src)|||RAN
+#100,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#100,in,SA4 (src),RAN,2,2.0,2.0,in|||SA4 (src)|||RAN
+#100,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#100,out,RAN,RAN4 (dst),2,2.0,2.0,out|||RAN|||RAN4 (dst)
+#100,out,RAN,SA (dst),1,1.0,0.5,out|||RAN|||SA (dst)
+#100,out,RAN,SA2 (dst),3,3.0,2.5,out|||RAN|||SA2 (dst)
+#101,in,3GPP RAN ITU-R AH (src),RAN,2,2.0,2.0,in|||3GPP RAN ITU-R AH (src)|||RAN
+#101,in,450 MHz Alliance (src),RAN,1,1.0,1.0,in|||450 MHz Alliance (src)|||RAN
+#101,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#101,in,AirFuel Alliance (src),RAN,1,1.0,1.0,in|||AirFuel Alliance (src)|||RAN
+#101,in,ETSI ISG RIS (src),RAN,1,1.0,1.0,in|||ETSI ISG RIS (src)|||RAN
+#101,in,ETSI TC RT (src),RAN,1,1.0,1.0,in|||ETSI TC RT (src)|||RAN
+#101,in,GSMA (src),RAN,1,1.0,1.0,in|||GSMA (src)|||RAN
+#101,in,ITU-R WP4B (src),RAN,1,1.0,1.0,in|||ITU-R WP4B (src)|||RAN
+#101,in,ITU-R WP5D (src),RAN,5,5.0,5.0,in|||ITU-R WP5D (src)|||RAN
+#101,in,RAN1 (src),RAN,1,1.0,1.0,in|||RAN1 (src)|||RAN
+#101,in,RAN4 (src),RAN,3,3.0,3.0,in|||RAN4 (src)|||RAN
+#101,in,RISTA (RIS Tech Alliance) (src),RAN,1,1.0,1.0,in|||RISTA (RIS Tech Alliance) (src)|||RAN
+#101,in,SA (src),RAN,1,1.0,1.0,in|||SA (src)|||RAN
+#101,in,SA2 (src),RAN,1,1.0,1.0,in|||SA2 (src)|||RAN
+#101,in,SA3 (src),RAN,1,1.0,1.0,in|||SA3 (src)|||RAN
+#101,out,RAN,RAN2 (dst),3,3.0,3.0,out|||RAN|||RAN2 (dst)
+#101,out,RAN,SA (dst),2,2.0,2.0,out|||RAN|||SA (dst)
+#102,in,5G-MAG WG CS (src),RAN,1,1.0,1.0,in|||5G-MAG WG CS (src)|||RAN
+#102,in,5GAA WG4 (src),RAN,2,2.0,2.0,in|||5GAA WG4 (src)|||RAN
+#102,in,5GACIA (src),RAN,1,1.0,1.0,in|||5GACIA (src)|||RAN
+#102,in,ETSI ISG ISAC (src),RAN,1,1.0,1.0,in|||ETSI ISG ISAC (src)|||RAN
+#102,in,GSOA (src),RAN,1,1.0,1.0,in|||GSOA (src)|||RAN
+#102,in,ITU-T CITS (src),RAN,1,1.0,1.0,in|||ITU-T CITS (src)|||RAN
+#102,in,ITU-T JCA-IMT2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA-IMT2020 (src)|||RAN
+#102,in,ITU-T SG12 (src),RAN,1,1.0,1.0,in|||ITU-T SG12 (src)|||RAN
+#102,in,ITU-T SG20 (src),RAN,2,2.0,2.0,in|||ITU-T SG20 (src)|||RAN
+#102,in,NGMN (src),RAN,1,1.0,1.0,in|||NGMN (src)|||RAN
+#102,in,RAN3 (src),RAN,3,3.0,3.0,in|||RAN3 (src)|||RAN
+#102,in,SA2 (src),RAN,1,1.0,1.0,in|||SA2 (src)|||RAN
+#102,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#102,in,TCCA (src),RAN,1,1.0,1.0,in|||TCCA (src)|||RAN
+#102,out,RAN,3GPP TSG SA (dst),1,1.0,1.0,out|||RAN|||3GPP TSG SA (dst)
+#102,out,RAN,SA (dst),1,1.0,1.0,out|||RAN|||SA (dst)
+#102,out,RAN,SA1 (dst),2,2.0,1.0,out|||RAN|||SA1 (dst)
+#102,out,RAN,SA2 (dst),5,5.0,4.0,out|||RAN|||SA2 (dst)
+#103,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#103,in,ETSI ISG ISAC (src),RAN,1,1.0,1.0,in|||ETSI ISG ISAC (src)|||RAN
+#103,in,GSOA Standards Working Group (src),RAN,1,1.0,1.0,in|||GSOA Standards Working Group (src)|||RAN
+#103,in,ITU-R WP5D (src),RAN,2,2.0,2.0,in|||ITU-R WP5D (src)|||RAN
+#103,in,NGMN Alliance (src),RAN,1,1.0,1.0,in|||NGMN Alliance (src)|||RAN
+#103,in,RAN3 (src),RAN,1,1.0,1.0,in|||RAN3 (src)|||RAN
+#103,in,RAN4 (src),RAN,4,4.0,4.0,in|||RAN4 (src)|||RAN
+#103,in,RAN5 (src),RAN,1,1.0,1.0,in|||RAN5 (src)|||RAN
+#103,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#103,in,SA2 (src),RAN,5,5.0,5.0,in|||SA2 (src)|||RAN
+#103,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#103,in,Seamless Air Alliance NTN Working Group (src),RAN,1,1.0,1.0,in|||Seamless Air Alliance NTN Working Group (src)|||RAN
+#103,out,RAN,ETSI TC RT (dst),2,2.0,2.0,out|||RAN|||ETSI TC RT (dst)
+#103,out,RAN,ITU-R WP 5D (dst),1,1.0,1.0,out|||RAN|||ITU-R WP 5D (dst)
+#103,out,RAN,RAN4 (dst),2,2.0,2.0,out|||RAN|||RAN4 (dst)
+#103,out,RAN,SA2 (dst),4,4.0,4.0,out|||RAN|||SA2 (dst)
+#104,in,3GPP ITU-R AH (src),RAN,2,2.0,2.0,in|||3GPP ITU-R AH (src)|||RAN
+#104,in,CT (src),RAN,1,1.0,1.0,in|||CT (src)|||RAN
+#104,in,ETSI ISG THz (src),RAN,1,1.0,1.0,in|||ETSI ISG THz (src)|||RAN
+#104,in,ETSI TC RT (src),RAN,1,1.0,1.0,in|||ETSI TC RT (src)|||RAN
+#104,in,ETSI TC TCCE (src),RAN,1,1.0,1.0,in|||ETSI TC TCCE (src)|||RAN
+#104,in,GCF-CAG (src),RAN,1,1.0,1.0,in|||GCF-CAG (src)|||RAN
+#104,in,GSOA (src),RAN,1,1.0,1.0,in|||GSOA (src)|||RAN
+#104,in,ITU-T CITS (src),RAN,1,1.0,1.0,in|||ITU-T CITS (src)|||RAN
+#104,in,ITU-T JCA-IMT2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA-IMT2020 (src)|||RAN
+#104,in,ITU-T SG11 (src),RAN,1,1.0,1.0,in|||ITU-T SG11 (src)|||RAN
+#104,in,ITU-T SG12 (src),RAN,1,1.0,1.0,in|||ITU-T SG12 (src)|||RAN
+#104,in,ITU-T SG16 (src),RAN,1,1.0,1.0,in|||ITU-T SG16 (src)|||RAN
+#104,in,ITU-T SG20 (src),RAN,1,1.0,1.0,in|||ITU-T SG20 (src)|||RAN
+#104,in,RAN3 (src),RAN,1,1.0,1.0,in|||RAN3 (src)|||RAN
+#104,in,RAN4 (src),RAN,4,4.0,4.0,in|||RAN4 (src)|||RAN
+#104,in,SA2 (src),RAN,1,1.0,1.0,in|||SA2 (src)|||RAN
+#104,out,RAN,CT (dst),2,2.0,0.166667,out|||RAN|||CT (dst)
+#104,out,RAN,CT1 (dst),2,2.0,0.166667,out|||RAN|||CT1 (dst)
+#104,out,RAN,CT3 (dst),2,2.0,0.166667,out|||RAN|||CT3 (dst)
+#104,out,RAN,CT4 (dst),2,2.0,0.166667,out|||RAN|||CT4 (dst)
+#104,out,RAN,CT6 (dst),2,2.0,0.166667,out|||RAN|||CT6 (dst)
+#104,out,RAN,SA (dst),4,4.0,2.166667,out|||RAN|||SA (dst)
+#104,out,RAN,SA1 (dst),2,2.0,0.166667,out|||RAN|||SA1 (dst)
+#104,out,RAN,SA2 (dst),6,6.0,4.166667,out|||RAN|||SA2 (dst)
+#104,out,RAN,SA3 (dst),2,2.0,0.166667,out|||RAN|||SA3 (dst)
+#104,out,RAN,SA4 (dst),2,2.0,0.166667,out|||RAN|||SA4 (dst)
+#104,out,RAN,SA5 (dst),2,2.0,0.166667,out|||RAN|||SA5 (dst)
+#104,out,RAN,SA6 (dst),2,2.0,0.166667,out|||RAN|||SA6 (dst)
+#105,in,5G-MAG WG CD (src),RAN,1,1.0,1.0,in|||5G-MAG WG CD (src)|||RAN
+#105,in,IALA (src),RAN,1,1.0,1.0,in|||IALA (src)|||RAN
+#105,in,ITU-T SG13 (src),RAN,1,1.0,1.0,in|||ITU-T SG13 (src)|||RAN
+#105,in,ITU-T SG20 (src),RAN,1,1.0,1.0,in|||ITU-T SG20 (src)|||RAN
+#105,in,LPTVBA (src),RAN,1,1.0,1.0,in|||LPTVBA (src)|||RAN
+#105,in,RAN4 (src),RAN,3,3.0,3.0,in|||RAN4 (src)|||RAN
+#105,in,SA2 (src),RAN,1,1.0,1.0,in|||SA2 (src)|||RAN
+#105,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#105,out,RAN,SA (dst),4,4.0,1.75,out|||RAN|||SA (dst)
+#105,out,RAN,SA2 (dst),3,3.0,0.75,out|||RAN|||SA2 (dst)
+#105,out,RAN,SA3 (dst),3,3.0,0.75,out|||RAN|||SA3 (dst)
+#105,out,RAN,SA5 (dst),3,3.0,0.75,out|||RAN|||SA5 (dst)
+#106,in,3GPP RAN ITU-R AH (src),RAN,5,5.0,5.0,in|||3GPP RAN ITU-R AH (src)|||RAN
+#106,in,APT Wireless Group (AWG) (src),RAN,1,1.0,1.0,in|||APT Wireless Group (AWG) (src)|||RAN
+#106,in,ETSI TC MSG TFES (src),RAN,2,2.0,2.0,in|||ETSI TC MSG TFES (src)|||RAN
+#106,in,ITU-R WP4B (src),RAN,2,2.0,2.0,in|||ITU-R WP4B (src)|||RAN
+#106,in,ITU-R WP5D (src),RAN,3,3.0,3.0,in|||ITU-R WP5D (src)|||RAN
+#106,in,NGMN (src),RAN,2,2.0,2.0,in|||NGMN (src)|||RAN
+#106,in,O-RAN SDFG (src),RAN,1,1.0,1.0,in|||O-RAN SDFG (src)|||RAN
+#106,in,RAN2 (src),RAN,2,2.0,2.0,in|||RAN2 (src)|||RAN
+#106,in,RAN3 (src),RAN,3,3.0,3.0,in|||RAN3 (src)|||RAN
+#106,in,RAN4 (src),RAN,5,5.0,5.0,in|||RAN4 (src)|||RAN
+#106,in,SA (src),RAN,1,1.0,1.0,in|||SA (src)|||RAN
+#106,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#106,in,SA2 (src),RAN,5,5.0,5.0,in|||SA2 (src)|||RAN
+#106,in,SA3 (src),RAN,1,1.0,1.0,in|||SA3 (src)|||RAN
+#106,in,SA5 (src),RAN,4,4.0,4.0,in|||SA5 (src)|||RAN
+#106,out,RAN,O-RAN SDFG (dst),1,1.0,1.0,out|||RAN|||O-RAN SDFG (dst)
+#106,out,RAN,RAN2 (dst),1,1.0,1.0,out|||RAN|||RAN2 (dst)
+#106,out,RAN,RAN5 (dst),3,3.0,3.0,out|||RAN|||RAN5 (dst)
+#106,out,RAN,SA (dst),13,13.0,11.666667,out|||RAN|||SA (dst)
+#106,out,RAN,SA2 (dst),2,2.0,0.666667,out|||RAN|||SA2 (dst)
+#106,out,RAN,SA5 (dst),2,2.0,0.666667,out|||RAN|||SA5 (dst)
+#107,in,3GPP ITU-R AH (src),RAN,1,1.0,1.0,in|||3GPP ITU-R AH (src)|||RAN
+#107,in,ESA (src),RAN,1,1.0,1.0,in|||ESA (src)|||RAN
+#107,in,ETSI ISG ISAC (src),RAN,1,1.0,1.0,in|||ETSI ISG ISAC (src)|||RAN
+#107,in,ETSI ISG MAT (src),RAN,1,1.0,1.0,in|||ETSI ISG MAT (src)|||RAN
+#107,in,ETSI ISG RIS (src),RAN,1,1.0,1.0,in|||ETSI ISG RIS (src)|||RAN
+#107,in,ETSI ISG THz (src),RAN,1,1.0,1.0,in|||ETSI ISG THz (src)|||RAN
+#107,in,GSOA (src),RAN,1,1.0,1.0,in|||GSOA (src)|||RAN
+#107,in,ITU-R WP5C (src),RAN,1,1.0,1.0,in|||ITU-R WP5C (src)|||RAN
+#107,in,ITU-R WP5D (src),RAN,4,4.0,4.0,in|||ITU-R WP5D (src)|||RAN
+#107,in,ITU-T JCA IMT-2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA IMT-2020 (src)|||RAN
+#107,in,ITU-T SG20 (src),RAN,2,2.0,2.0,in|||ITU-T SG20 (src)|||RAN
+#107,in,NGMN (src),RAN,3,3.0,3.0,in|||NGMN (src)|||RAN
+#107,in,RAN1 (src),RAN,2,2.0,2.0,in|||RAN1 (src)|||RAN
+#107,in,RAN2 (src),RAN,1,1.0,1.0,in|||RAN2 (src)|||RAN
+#107,in,RAN3 (src),RAN,1,1.0,1.0,in|||RAN3 (src)|||RAN
+#107,in,RAN4 (src),RAN,1,1.0,1.0,in|||RAN4 (src)|||RAN
+#107,in,SA5 (src),RAN,2,2.0,2.0,in|||SA5 (src)|||RAN
+#107,out,RAN,ITU-R WP 5D (dst),1,1.0,1.0,out|||RAN|||ITU-R WP 5D (dst)
+#107,out,RAN,RAN3 (dst),2,2.0,2.0,out|||RAN|||RAN3 (dst)
+#107,out,RAN,SA (dst),1,1.0,1.0,out|||RAN|||SA (dst)
+#108,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#108,in,APT WG (src),RAN,1,1.0,1.0,in|||APT WG (src)|||RAN
+#108,in,ETSI TC ITS (src),RAN,1,1.0,1.0,in|||ETSI TC ITS (src)|||RAN
+#108,in,"Future Mobile Communication Forum, China (src)",RAN,1,1.0,1.0,"in|||Future Mobile Communication Forum, China (src)|||RAN"
+#108,in,ITU-R WP4B (src),RAN,1,1.0,1.0,in|||ITU-R WP4B (src)|||RAN
+#108,in,ITU-T SG13 (src),RAN,1,1.0,1.0,in|||ITU-T SG13 (src)|||RAN
+#108,in,NGMN (src),RAN,1,1.0,1.0,in|||NGMN (src)|||RAN
+#108,in,O-RAN (src),RAN,1,1.0,1.0,in|||O-RAN (src)|||RAN
+#108,in,RAN2 (src),RAN,2,2.0,2.0,in|||RAN2 (src)|||RAN
+#108,in,RAN3 (src),RAN,1,1.0,1.0,in|||RAN3 (src)|||RAN
+#108,in,RAN4 (src),RAN,2,2.0,2.0,in|||RAN4 (src)|||RAN
+#108,in,SA2 (src),RAN,4,4.0,4.0,in|||SA2 (src)|||RAN
+#108,in,SA3 (src),RAN,1,1.0,1.0,in|||SA3 (src)|||RAN
+#108,out,RAN,CT (dst),2,2.0,0.333333,out|||RAN|||CT (dst)
+#108,out,RAN,CT1 (dst),2,2.0,0.333333,out|||RAN|||CT1 (dst)
+#108,out,RAN,ITU-R WP5D (dst),2,2.0,2.0,out|||RAN|||ITU-R WP5D (dst)
+#108,out,RAN,PCG (dst),2,2.0,1.0,out|||RAN|||PCG (dst)
+#108,out,RAN,RAN1 (dst),2,2.0,1.0,out|||RAN|||RAN1 (dst)
+#108,out,RAN,RAN2 (dst),2,2.0,0.333333,out|||RAN|||RAN2 (dst)
+#108,out,RAN,RAN3 (dst),2,2.0,0.333333,out|||RAN|||RAN3 (dst)
+#108,out,RAN,SA (dst),4,4.0,1.333333,out|||RAN|||SA (dst)
+#108,out,RAN,SA1 (dst),2,2.0,0.333333,out|||RAN|||SA1 (dst)
+#108,out,RAN,SA3 (dst),2,2.0,1.0,out|||RAN|||SA3 (dst)
+#109,in,3GPP ITU-R AH (src),RAN,1,1.0,1.0,in|||3GPP ITU-R AH (src)|||RAN
+#109,in,5GAA (src),RAN,1,1.0,1.0,in|||5GAA (src)|||RAN
+#109,in,CT (src),RAN,1,1.0,1.0,in|||CT (src)|||RAN
+#109,in,CT1 (src),RAN,1,1.0,1.0,in|||CT1 (src)|||RAN
+#109,in,ITU-R WP5D (src),RAN,2,2.0,2.0,in|||ITU-R WP5D (src)|||RAN
+#109,in,ITU-T JCA IMT2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA IMT2020 (src)|||RAN
+#109,in,RAN3 (src),RAN,1,1.0,1.0,in|||RAN3 (src)|||RAN
+#109,in,RAN4 (src),RAN,2,2.0,2.0,in|||RAN4 (src)|||RAN
+#109,in,SA (src),RAN,1,1.0,1.0,in|||SA (src)|||RAN
+#109,in,SA2 (src),RAN,2,2.0,2.0,in|||SA2 (src)|||RAN
+#109,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#109,out,RAN,SA (dst),16,16.0,15.5,out|||RAN|||SA (dst)
+#109,out,RAN,SA2 (dst),1,1.0,0.5,out|||RAN|||SA2 (dst)
+#110,in,3GPP ITU-R AH (src),RAN,2,2.0,2.0,in|||3GPP ITU-R AH (src)|||RAN
+#110,in,APT WG (src),RAN,1,1.0,1.0,in|||APT WG (src)|||RAN
+#110,in,ECC PT1 (src),RAN,1,1.0,1.0,in|||ECC PT1 (src)|||RAN
+#110,in,ETSI TC SES (src),RAN,1,1.0,1.0,in|||ETSI TC SES (src)|||RAN
+#110,in,ITU-R WP5D (src),RAN,2,2.0,2.0,in|||ITU-R WP5D (src)|||RAN
+#110,in,ITU-T JCA IMT-2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA IMT-2020 (src)|||RAN
+#110,in,ITU-T SG15 (src),RAN,1,1.0,1.0,in|||ITU-T SG15 (src)|||RAN
+#110,in,ITU-T SP18 FG-AINN (src),RAN,1,1.0,1.0,in|||ITU-T SP18 FG-AINN (src)|||RAN
+#110,in,NGMN (src),RAN,2,2.0,2.0,in|||NGMN (src)|||RAN
+#110,in,RAN2 (src),RAN,1,1.0,1.0,in|||RAN2 (src)|||RAN
+#110,in,RAN4 (src),RAN,5,5.0,5.0,in|||RAN4 (src)|||RAN
+#110,in,SA (src),RAN,5,5.0,5.0,in|||SA (src)|||RAN
+#110,in,SA2 (src),RAN,5,5.0,5.0,in|||SA2 (src)|||RAN
+#110,in,SA5 (src),RAN,2,2.0,2.0,in|||SA5 (src)|||RAN
+#110,out,RAN,ECC PT1 (dst),2,2.0,2.0,out|||RAN|||ECC PT1 (dst)
+#110,out,RAN,PCG (dst),1,1.0,0.5,out|||RAN|||PCG (dst)
+#110,out,RAN,RAN2 (dst),1,1.0,0.333333,out|||RAN|||RAN2 (dst)
+#110,out,RAN,SA (dst),9,9.0,5.833333,out|||RAN|||SA (dst)
+#110,out,RAN,SA2 (dst),3,3.0,1.333333,out|||RAN|||SA2 (dst)
+#110,out,RAN,SA5 (dst),2,2.0,1.0,out|||RAN|||SA5 (dst)
+#90,in,3GPP ITU-R Ad Hoc (src),RAN,2,2.0,2.0,in|||3GPP ITU-R Ad Hoc (src)|||RAN
+#90,in,Asia-Pacific Telecommunity (APT) (src),RAN,1,1.0,1.0,in|||Asia-Pacific Telecommunity (APT) (src)|||RAN
+#90,in,ETSI JTC Broadcast (src),RAN,1,1.0,1.0,in|||ETSI JTC Broadcast (src)|||RAN
+#90,in,ETSI MSG TFES (src),RAN,1,1.0,1.0,in|||ETSI MSG TFES (src)|||RAN
+#90,in,ETSI TC ITS (src),RAN,1,1.0,1.0,in|||ETSI TC ITS (src)|||RAN
+#90,in,IEEE Vehicular Technology/Intelligent Transportation System (VT/ITS) 1609 WG (src),RAN,1,1.0,1.0,in|||IEEE Vehicular Technology/Intelligent Transportation System (VT/ITS) 1609 WG (src)|||RAN
+#90,in,ITU-R WP4B (src),RAN,1,1.0,1.0,in|||ITU-R WP4B (src)|||RAN
+#90,in,ITU-R WP5A (src),RAN,1,1.0,1.0,in|||ITU-R WP5A (src)|||RAN
+#90,in,ITU-R WP5D (src),RAN,5,5.0,5.0,in|||ITU-R WP5D (src)|||RAN
+#90,in,NGMN (src),RAN,1,1.0,1.0,in|||NGMN (src)|||RAN
+#90,in,RAN1 (src),RAN,1,1.0,1.0,in|||RAN1 (src)|||RAN
+#90,in,RAN2 (src),RAN,2,2.0,2.0,in|||RAN2 (src)|||RAN
+#90,in,RAN4 (src),RAN,1,1.0,1.0,in|||RAN4 (src)|||RAN
+#90,in,SA (src),RAN,2,2.0,2.0,in|||SA (src)|||RAN
+#90,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#90,in,SA2 (src),RAN,2,2.0,2.0,in|||SA2 (src)|||RAN
+#90,in,SA4 (src),RAN,2,2.0,2.0,in|||SA4 (src)|||RAN
+#90,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#90,out,RAN,Asia-Pacific Telecommunity (APT) Wireless Group (dst),2,2.0,2.0,out|||RAN|||Asia-Pacific Telecommunity (APT) Wireless Group (dst)
+#90,out,RAN,EMEA Satellite Operators Association (ESOA) (dst),1,1.0,1.0,out|||RAN|||EMEA Satellite Operators Association (ESOA) (dst)
+#90,out,RAN,ITU-R WP4B (dst),2,2.0,2.0,out|||RAN|||ITU-R WP4B (dst)
+#90,out,RAN,RAN2 (dst),5,5.0,2.5,out|||RAN|||RAN2 (dst)
+#90,out,RAN,RAN4 (dst),5,5.0,2.5,out|||RAN|||RAN4 (dst)
+#90,out,RAN,SA (dst),1,1.0,1.0,out|||RAN|||SA (dst)
+#91,in,3GPP ITU-R Ad Hoc (src),RAN,1,1.0,1.0,in|||3GPP ITU-R Ad Hoc (src)|||RAN
+#91,in,5G Media Action Group (5G-MAG) (src),RAN,1,1.0,1.0,in|||5G Media Action Group (5G-MAG) (src)|||RAN
+#91,in,5GAA (src),RAN,1,1.0,1.0,in|||5GAA (src)|||RAN
+#91,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#91,in,CEPT ECC PT1 (src),RAN,1,1.0,1.0,in|||CEPT ECC PT1 (src)|||RAN
+#91,in,CT4 (src),RAN,1,1.0,1.0,in|||CT4 (src)|||RAN
+#91,in,ESOA (src),RAN,1,1.0,1.0,in|||ESOA (src)|||RAN
+#91,in,ETSI ISG IPE (src),RAN,1,1.0,1.0,in|||ETSI ISG IPE (src)|||RAN
+#91,in,ETSI TC ERM (src),RAN,1,1.0,1.0,in|||ETSI TC ERM (src)|||RAN
+#91,in,GSMA (src),RAN,1,1.0,1.0,in|||GSMA (src)|||RAN
+#91,in,IEEE 1588 WG (src),RAN,1,1.0,1.0,in|||IEEE 1588 WG (src)|||RAN
+#91,in,IETF (src),RAN,1,1.0,1.0,in|||IETF (src)|||RAN
+#91,in,ITU-R WP1C (src),RAN,1,1.0,1.0,in|||ITU-R WP1C (src)|||RAN
+#91,in,ITU-R WP4B (src),RAN,1,1.0,1.0,in|||ITU-R WP4B (src)|||RAN
+#91,in,ITU-R WP5D (src),RAN,3,3.0,3.0,in|||ITU-R WP5D (src)|||RAN
+#91,in,ITU-T JCA IMT2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA IMT2020 (src)|||RAN
+#91,in,ITU-T SG13 (src),RAN,1,1.0,1.0,in|||ITU-T SG13 (src)|||RAN
+#91,in,MulteFire Alliance (src),RAN,1,1.0,1.0,in|||MulteFire Alliance (src)|||RAN
+#91,in,NGMN (src),RAN,1,1.0,1.0,in|||NGMN (src)|||RAN
+#91,in,RAN1 (src),RAN,2,2.0,2.0,in|||RAN1 (src)|||RAN
+#91,in,RAN2 (src),RAN,3,3.0,3.0,in|||RAN2 (src)|||RAN
+#91,in,RAN3 (src),RAN,1,1.0,1.0,in|||RAN3 (src)|||RAN
+#91,in,RAN4 (src),RAN,4,4.0,4.0,in|||RAN4 (src)|||RAN
+#91,in,RAN5 (src),RAN,1,1.0,1.0,in|||RAN5 (src)|||RAN
+#91,in,SA (src),RAN,2,2.0,2.0,in|||SA (src)|||RAN
+#91,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#91,in,SA2 (src),RAN,1,1.0,1.0,in|||SA2 (src)|||RAN
+#91,in,SAE Advanced Applications Technical Committee (src),RAN,1,1.0,1.0,in|||SAE Advanced Applications Technical Committee (src)|||RAN
+#91,out,RAN,5G-ACIA (dst),2,2.0,2.0,out|||RAN|||5G-ACIA (dst)
+#91,out,RAN,CT1 (dst),3,3.0,1.5,out|||RAN|||CT1 (dst)
+#91,out,RAN,ITU-R WP1C (dst),2,2.0,2.0,out|||RAN|||ITU-R WP1C (dst)
+#91,out,RAN,ITU-R WP4B (dst),5,5.0,5.0,out|||RAN|||ITU-R WP4B (dst)
+#91,out,RAN,SA (dst),4,4.0,4.0,out|||RAN|||SA (dst)
+#91,out,RAN,SA1 (dst),3,3.0,1.5,out|||RAN|||SA1 (dst)
+#91,out,RAN,SA4 (dst),2,2.0,1.0,out|||RAN|||SA4 (dst)
+#91,out,RAN,SA5 (dst),2,2.0,1.0,out|||RAN|||SA5 (dst)
+#92,in,5GAA WG4 (src),RAN,2,2.0,2.0,in|||5GAA WG4 (src)|||RAN
+#92,in,APT Wireless Group (src),RAN,1,1.0,1.0,in|||APT Wireless Group (src)|||RAN
+#92,in,CT1 (src),RAN,2,2.0,2.0,in|||CT1 (src)|||RAN
+#92,in,ETSI TC ITS (src),RAN,1,1.0,1.0,in|||ETSI TC ITS (src)|||RAN
+#92,in,GSMA (src),RAN,1,1.0,1.0,in|||GSMA (src)|||RAN
+#92,in,IOWN Global Forum (src),RAN,1,1.0,1.0,in|||IOWN Global Forum (src)|||RAN
+#92,in,ITU-R WP5A (src),RAN,3,3.0,3.0,in|||ITU-R WP5A (src)|||RAN
+#92,in,ITU-R WP7C (src),RAN,1,1.0,1.0,in|||ITU-R WP7C (src)|||RAN
+#92,in,RAN1 (src),RAN,1,1.0,1.0,in|||RAN1 (src)|||RAN
+#92,in,RAN2 (src),RAN,2,2.0,2.0,in|||RAN2 (src)|||RAN
+#92,in,RAN3 (src),RAN,4,4.0,4.0,in|||RAN3 (src)|||RAN
+#92,in,RAN4 (src),RAN,6,6.0,6.0,in|||RAN4 (src)|||RAN
+#92,in,Regional Commonwealth in the field of Communication (RCC) (src),RAN,1,1.0,1.0,in|||Regional Commonwealth in the field of Communication (RCC) (src)|||RAN
+#92,in,SA (src),RAN,2,2.0,2.0,in|||SA (src)|||RAN
+#92,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#92,in,SA2 (src),RAN,1,1.0,1.0,in|||SA2 (src)|||RAN
+#92,in,SMPTE (src),RAN,1,1.0,1.0,in|||SMPTE (src)|||RAN
+#92,out,RAN,CT (dst),3,3.0,1.5,out|||RAN|||CT (dst)
+#92,out,RAN,GSMA (dst),1,1.0,1.0,out|||RAN|||GSMA (dst)
+#92,out,RAN,ITU-R WP1C (dst),2,2.0,2.0,out|||RAN|||ITU-R WP1C (dst)
+#92,out,RAN,PCG (dst),2,2.0,2.0,out|||RAN|||PCG (dst)
+#92,out,RAN,SA (dst),3,3.0,1.5,out|||RAN|||SA (dst)
+#93,in,3GPP ITU-R AH (src),RAN,2,2.0,2.0,in|||3GPP ITU-R AH (src)|||RAN
+#93,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#93,in,APT Wireless Group (src),RAN,1,1.0,1.0,in|||APT Wireless Group (src)|||RAN
+#93,in,CT (src),RAN,1,1.0,1.0,in|||CT (src)|||RAN
+#93,in,CTIA (src),RAN,1,1.0,1.0,in|||CTIA (src)|||RAN
+#93,in,ETSI TC BRAN (src),RAN,1,1.0,1.0,in|||ETSI TC BRAN (src)|||RAN
+#93,in,ETSI TC ITS (src),RAN,1,1.0,1.0,in|||ETSI TC ITS (src)|||RAN
+#93,in,ETSI TC MSG TFES (src),RAN,1,1.0,1.0,in|||ETSI TC MSG TFES (src)|||RAN
+#93,in,GSMA (src),RAN,1,1.0,1.0,in|||GSMA (src)|||RAN
+#93,in,IEEE 1588 WG (src),RAN,1,1.0,1.0,in|||IEEE 1588 WG (src)|||RAN
+#93,in,ITU-R WP4B (src),RAN,1,1.0,1.0,in|||ITU-R WP4B (src)|||RAN
+#93,in,ITU-R WP5D (src),RAN,4,4.0,4.0,in|||ITU-R WP5D (src)|||RAN
+#93,in,ITU-T SG13 (src),RAN,1,1.0,1.0,in|||ITU-T SG13 (src)|||RAN
+#93,in,ITU-T SG20 (src),RAN,1,1.0,1.0,in|||ITU-T SG20 (src)|||RAN
+#93,in,MulteFire Alliance (MFA) (src),RAN,1,1.0,1.0,in|||MulteFire Alliance (MFA) (src)|||RAN
+#93,in,NGMN (src),RAN,1,1.0,1.0,in|||NGMN (src)|||RAN
+#93,in,RAN1 (src),RAN,3,3.0,3.0,in|||RAN1 (src)|||RAN
+#93,in,RAN2 (src),RAN,4,4.0,4.0,in|||RAN2 (src)|||RAN
+#93,in,RAN3 (src),RAN,3,3.0,3.0,in|||RAN3 (src)|||RAN
+#93,in,RAN4 (src),RAN,5,5.0,5.0,in|||RAN4 (src)|||RAN
+#93,in,RAN5 (src),RAN,2,2.0,2.0,in|||RAN5 (src)|||RAN
+#93,in,SA (src),RAN,3,3.0,3.0,in|||SA (src)|||RAN
+#93,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#93,in,SA2 (src),RAN,2,2.0,2.0,in|||SA2 (src)|||RAN
+#93,in,SA6 (src),RAN,1,1.0,1.0,in|||SA6 (src)|||RAN
+#93,in,Utilities Technology Council (UTC) (src),RAN,1,1.0,1.0,in|||Utilities Technology Council (UTC) (src)|||RAN
+#93,out,RAN,5GAA WG4 (dst),2,2.0,1.0,out|||RAN|||5GAA WG4 (dst)
+#93,out,RAN,APT Wireless Group (dst),1,1.0,1.0,out|||RAN|||APT Wireless Group (dst)
+#93,out,RAN,CT (dst),1,1.0,0.25,out|||RAN|||CT (dst)
+#93,out,RAN,CT1 (dst),1,1.0,0.25,out|||RAN|||CT1 (dst)
+#93,out,RAN,EMEA Satellite Operators Association (ESOA) (dst),2,2.0,2.0,out|||RAN|||EMEA Satellite Operators Association (ESOA) (dst)
+#93,out,RAN,ITU-R WP5D (dst),2,2.0,2.0,out|||RAN|||ITU-R WP5D (dst)
+#93,out,RAN,PCG (dst),2,2.0,1.0,out|||RAN|||PCG (dst)
+#93,out,RAN,SA (dst),10,10.0,8.25,out|||RAN|||SA (dst)
+#93,out,RAN,SA2 (dst),4,4.0,3.25,out|||RAN|||SA2 (dst)
+#93,out,RAN,SAE Advanced Application Technical Committee (dst),2,2.0,1.0,out|||RAN|||SAE Advanced Application Technical Committee (dst)
+#94,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#94,in,CT1 (src),RAN,1,1.0,1.0,in|||CT1 (src)|||RAN
+#94,in,CT4 (src),RAN,1,1.0,1.0,in|||CT4 (src)|||RAN
+#94,in,ETSI ISG RIS (src),RAN,1,1.0,1.0,in|||ETSI ISG RIS (src)|||RAN
+#94,in,ITU-R WP1C (src),RAN,1,1.0,1.0,in|||ITU-R WP1C (src)|||RAN
+#94,in,ITU-R WP5D (src),RAN,2,2.0,2.0,in|||ITU-R WP5D (src)|||RAN
+#94,in,ITU-T JCA IMT2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA IMT2020 (src)|||RAN
+#94,in,ITU-T SG12 (src),RAN,1,1.0,1.0,in|||ITU-T SG12 (src)|||RAN
+#94,in,ITU-T SG2 (src),RAN,1,1.0,1.0,in|||ITU-T SG2 (src)|||RAN
+#94,in,MEF (src),RAN,1,1.0,1.0,in|||MEF (src)|||RAN
+#94,in,RAN3 (src),RAN,3,3.0,3.0,in|||RAN3 (src)|||RAN
+#94,in,RAN4 (src),RAN,3,3.0,3.0,in|||RAN4 (src)|||RAN
+#94,in,RAN5 (src),RAN,2,2.0,2.0,in|||RAN5 (src)|||RAN
+#94,in,Regional Commonwealth in the field of Communication (RCC) (src),RAN,1,1.0,1.0,in|||Regional Commonwealth in the field of Communication (RCC) (src)|||RAN
+#94,in,SA (src),RAN,1,1.0,1.0,in|||SA (src)|||RAN
+#94,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#94,in,SA2 (src),RAN,3,3.0,3.0,in|||SA2 (src)|||RAN
+#94,in,SA3 (src),RAN,4,4.0,4.0,in|||SA3 (src)|||RAN
+#94,in,SA5 (src),RAN,2,2.0,2.0,in|||SA5 (src)|||RAN
+#94,out,RAN,ETSI TC LI (dst),2,2.0,2.0,out|||RAN|||ETSI TC LI (dst)
+#94,out,RAN,RAN4 (dst),3,3.0,3.0,out|||RAN|||RAN4 (dst)
+#94,out,RAN,Regional Commonwealth in the field of Communication (RCC) (dst),3,3.0,3.0,out|||RAN|||Regional Commonwealth in the field of Communication (RCC) (dst)
+#94,out,RAN,SA (dst),4,4.0,4.0,out|||RAN|||SA (dst)
+#95,in,3GPP ITU-R Ad hoc (src),RAN,2,2.0,2.0,in|||3GPP ITU-R Ad hoc (src)|||RAN
+#95,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#95,in,CT1 (src),RAN,1,1.0,1.0,in|||CT1 (src)|||RAN
+#95,in,ETSI TC LI (src),RAN,1,1.0,1.0,in|||ETSI TC LI (src)|||RAN
+#95,in,EUWENA (src),RAN,1,1.0,1.0,in|||EUWENA (src)|||RAN
+#95,in,IEEE 1588 WG (src),RAN,1,1.0,1.0,in|||IEEE 1588 WG (src)|||RAN
+#95,in,ITU-R WP5D (src),RAN,2,2.0,2.0,in|||ITU-R WP5D (src)|||RAN
+#95,in,RAN2 (src),RAN,1,1.0,1.0,in|||RAN2 (src)|||RAN
+#95,in,RAN3 (src),RAN,1,1.0,1.0,in|||RAN3 (src)|||RAN
+#95,in,RAN4 (src),RAN,4,4.0,4.0,in|||RAN4 (src)|||RAN
+#95,in,SA (src),RAN,1,1.0,1.0,in|||SA (src)|||RAN
+#95,in,SA2 (src),RAN,3,3.0,3.0,in|||SA2 (src)|||RAN
+#95,in,SA5 (src),RAN,2,2.0,2.0,in|||SA5 (src)|||RAN
+#95,in,SMPTE (src),RAN,1,1.0,1.0,in|||SMPTE (src)|||RAN
+#95,in,TSDSI (Telecommunications Standards Development Society India) (src),RAN,1,1.0,1.0,in|||TSDSI (Telecommunications Standards Development Society India) (src)|||RAN
+#95,out,RAN,5GAA WG4 (dst),3,3.0,1.5,out|||RAN|||5GAA WG4 (dst)
+#95,out,RAN,CT (dst),1,1.0,0.5,out|||RAN|||CT (dst)
+#95,out,RAN,ETSI TC LI (dst),2,2.0,2.0,out|||RAN|||ETSI TC LI (dst)
+#95,out,RAN,ISED-Canada (dst),4,4.0,4.0,out|||RAN|||ISED-Canada (dst)
+#95,out,RAN,PCG (dst),1,1.0,1.0,out|||RAN|||PCG (dst)
+#95,out,RAN,SA (dst),9,9.0,7.0,out|||RAN|||SA (dst)
+#95,out,RAN,SA2 (dst),3,3.0,3.0,out|||RAN|||SA2 (dst)
+#95,out,RAN,TSDSI (Telecommunications Standards Development Society India) (dst),2,2.0,2.0,out|||RAN|||TSDSI (Telecommunications Standards Development Society India) (dst)
+#96,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#96,in,APT WG (src),RAN,1,1.0,1.0,in|||APT WG (src)|||RAN
+#96,in,ETSI TC ITS (src),RAN,1,1.0,1.0,in|||ETSI TC ITS (src)|||RAN
+#96,in,ETSI TC RT (src),RAN,1,1.0,1.0,in|||ETSI TC RT (src)|||RAN
+#96,in,GSMA (src),RAN,1,1.0,1.0,in|||GSMA (src)|||RAN
+#96,in,GSOA (src),RAN,1,1.0,1.0,in|||GSOA (src)|||RAN
+#96,in,ISED (src),RAN,1,1.0,1.0,in|||ISED (src)|||RAN
+#96,in,RAN1 (src),RAN,1,1.0,1.0,in|||RAN1 (src)|||RAN
+#96,in,RAN4 (src),RAN,3,3.0,3.0,in|||RAN4 (src)|||RAN
+#96,in,RAN5 (src),RAN,1,1.0,1.0,in|||RAN5 (src)|||RAN
+#96,in,Regional Commonwealth in the field of Communication (RCC) (src),RAN,1,1.0,1.0,in|||Regional Commonwealth in the field of Communication (RCC) (src)|||RAN
+#96,in,SA (src),RAN,2,2.0,2.0,in|||SA (src)|||RAN
+#96,in,SA2 (src),RAN,1,1.0,1.0,in|||SA2 (src)|||RAN
+#96,in,SA3 (src),RAN,1,1.0,1.0,in|||SA3 (src)|||RAN
+#96,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#96,out,RAN,APT Wireless Group (dst),2,2.0,2.0,out|||RAN|||APT Wireless Group (dst)
+#96,out,RAN,GSMA Spectrum Group (dst),1,1.0,1.0,out|||RAN|||GSMA Spectrum Group (dst)
+#96,out,RAN,GSMA Spectrum Team (dst),2,2.0,2.0,out|||RAN|||GSMA Spectrum Team (dst)
+#96,out,RAN,ITU-R WP1C (dst),2,2.0,2.0,out|||RAN|||ITU-R WP1C (dst)
+#96,out,RAN,SA2 (dst),3,3.0,3.0,out|||RAN|||SA2 (dst)
+#97,in,3GPP ITU-R AH (src),RAN,1,1.0,1.0,in|||3GPP ITU-R AH (src)|||RAN
+#97,in,CT (src),RAN,2,2.0,2.0,in|||CT (src)|||RAN
+#97,in,ETSI (src),RAN,1,1.0,1.0,in|||ETSI (src)|||RAN
+#97,in,ITU-R WP5D (src),RAN,1,1.0,1.0,in|||ITU-R WP5D (src)|||RAN
+#97,in,JCA-IMT2020 (src),RAN,1,1.0,1.0,in|||JCA-IMT2020 (src)|||RAN
+#97,in,NGMN Alliance (src),RAN,1,1.0,1.0,in|||NGMN Alliance (src)|||RAN
+#97,in,O-RAN WG10 (src),RAN,1,1.0,1.0,in|||O-RAN WG10 (src)|||RAN
+#97,in,O-RAN WG9 (src),RAN,1,1.0,1.0,in|||O-RAN WG9 (src)|||RAN
+#97,in,RAN1 (src),RAN,1,1.0,1.0,in|||RAN1 (src)|||RAN
+#97,in,RAN2 (src),RAN,1,1.0,1.0,in|||RAN2 (src)|||RAN
+#97,in,RAN3 (src),RAN,2,2.0,2.0,in|||RAN3 (src)|||RAN
+#97,in,RAN4 (src),RAN,4,4.0,4.0,in|||RAN4 (src)|||RAN
+#97,in,RAN5 (src),RAN,1,1.0,1.0,in|||RAN5 (src)|||RAN
+#97,in,SA2 (src),RAN,2,2.0,2.0,in|||SA2 (src)|||RAN
+#97,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#97,out,RAN,3GPP OP (dst),2,2.0,0.666667,out|||RAN|||3GPP OP (dst)
+#97,out,RAN,3GPP OPs (ARIB (dst),3,3.0,0.333333,out|||RAN|||3GPP OPs (ARIB (dst)
+#97,out,RAN,ATIS (dst),3,3.0,0.333333,out|||RAN|||ATIS (dst)
+#97,out,RAN,CCSA (dst),3,3.0,0.333333,out|||RAN|||CCSA (dst)
+#97,out,RAN,ETSI (dst),3,3.0,0.333333,out|||RAN|||ETSI (dst)
+#97,out,RAN,PCG (dst),5,5.0,1.0,out|||RAN|||PCG (dst)
+#97,out,RAN,RAN3 (dst),3,3.0,1.666667,out|||RAN|||RAN3 (dst)
+#97,out,RAN,SA (dst),10,10.0,4.666667,out|||RAN|||SA (dst)
+#97,out,RAN,SA2 (dst),3,3.0,1.666667,out|||RAN|||SA2 (dst)
+#97,out,RAN,TSDSI (dst),3,3.0,0.333333,out|||RAN|||TSDSI (dst)
+#97,out,RAN,TTA (dst),3,3.0,0.333333,out|||RAN|||TTA (dst)
+#97,out,RAN,TTC) (dst),3,3.0,0.333333,out|||RAN|||TTC) (dst)
+#98,in,3GPP ITU-R AH (src),RAN,3,3.0,3.0,in|||3GPP ITU-R AH (src)|||RAN
+#98,in,5G-ACIA (src),RAN,2,2.0,2.0,in|||5G-ACIA (src)|||RAN
+#98,in,APT WG (src),RAN,1,1.0,1.0,in|||APT WG (src)|||RAN
+#98,in,CT (src),RAN,1,1.0,1.0,in|||CT (src)|||RAN
+#98,in,ETSI TC LI (src),RAN,1,1.0,1.0,in|||ETSI TC LI (src)|||RAN
+#98,in,GSMA (src),RAN,1,1.0,1.0,in|||GSMA (src)|||RAN
+#98,in,IETF LPWAN Working Group (src),RAN,1,1.0,1.0,in|||IETF LPWAN Working Group (src)|||RAN
+#98,in,ITU-R WP5D (src),RAN,1,1.0,1.0,in|||ITU-R WP5D (src)|||RAN
+#98,in,ITU-T JCA IMT2020 (src),RAN,1,1.0,1.0,in|||ITU-T JCA IMT2020 (src)|||RAN
+#98,in,ITU-T SG13 (src),RAN,2,2.0,2.0,in|||ITU-T SG13 (src)|||RAN
+#98,in,ITU-T SG3 (src),RAN,1,1.0,1.0,in|||ITU-T SG3 (src)|||RAN
+#98,in,RAN2 (src),RAN,2,2.0,2.0,in|||RAN2 (src)|||RAN
+#98,in,RAN3 (src),RAN,3,3.0,3.0,in|||RAN3 (src)|||RAN
+#98,in,RAN4 (src),RAN,5,5.0,5.0,in|||RAN4 (src)|||RAN
+#98,in,SA (src),RAN,1,1.0,1.0,in|||SA (src)|||RAN
+#98,in,SA1 (src),RAN,1,1.0,1.0,in|||SA1 (src)|||RAN
+#98,in,SA2 (src),RAN,3,3.0,3.0,in|||SA2 (src)|||RAN
+#98,out,RAN,3GPP OPs (ARIB (dst),2,2.0,0.222222,out|||RAN|||3GPP OPs (ARIB (dst)
+#98,out,RAN,ATIS (dst),2,2.0,0.222222,out|||RAN|||ATIS (dst)
+#98,out,RAN,CCSA (dst),2,2.0,0.222222,out|||RAN|||CCSA (dst)
+#98,out,RAN,ETSI (dst),2,2.0,0.222222,out|||RAN|||ETSI (dst)
+#98,out,RAN,ETSI TC LI (dst),3,3.0,3.0,out|||RAN|||ETSI TC LI (dst)
+#98,out,RAN,PCG (dst),2,2.0,0.222222,out|||RAN|||PCG (dst)
+#98,out,RAN,SA (dst),5,5.0,3.222222,out|||RAN|||SA (dst)
+#98,out,RAN,SA2 (dst),1,1.0,1.0,out|||RAN|||SA2 (dst)
+#98,out,RAN,TSDSI (dst),2,2.0,0.222222,out|||RAN|||TSDSI (dst)
+#98,out,RAN,TTA (dst),2,2.0,0.222222,out|||RAN|||TTA (dst)
+#98,out,RAN,TTC) (dst),2,2.0,0.222222,out|||RAN|||TTC) (dst)
+#99,in,5GAA WG4 (src),RAN,1,1.0,1.0,in|||5GAA WG4 (src)|||RAN
+#99,in,ETSI ISG THZ (src),RAN,1,1.0,1.0,in|||ETSI ISG THZ (src)|||RAN
+#99,in,ETSI TC TFES (src),RAN,3,3.0,3.0,in|||ETSI TC TFES (src)|||RAN
+#99,in,ITU-R WP5D (src),RAN,4,4.0,4.0,in|||ITU-R WP5D (src)|||RAN
+#99,in,ITU-T JCA IoT and SC&C (src),RAN,1,1.0,1.0,in|||ITU-T JCA IoT and SC&C (src)|||RAN
+#99,in,ITU-T SG11 (src),RAN,1,1.0,1.0,in|||ITU-T SG11 (src)|||RAN
+#99,in,ITU-T SG13 (src),RAN,1,1.0,1.0,in|||ITU-T SG13 (src)|||RAN
+#99,in,O-RAN WG10 (src),RAN,1,1.0,1.0,in|||O-RAN WG10 (src)|||RAN
+#99,in,RAN1 (src),RAN,1,1.0,1.0,in|||RAN1 (src)|||RAN
+#99,in,RAN3 (src),RAN,4,4.0,4.0,in|||RAN3 (src)|||RAN
+#99,in,RAN4 (src),RAN,3,3.0,3.0,in|||RAN4 (src)|||RAN
+#99,in,SA (src),RAN,1,1.0,1.0,in|||SA (src)|||RAN
+#99,in,SA2 (src),RAN,2,2.0,2.0,in|||SA2 (src)|||RAN
+#99,in,SA3 (src),RAN,1,1.0,1.0,in|||SA3 (src)|||RAN
+#99,in,SA5 (src),RAN,1,1.0,1.0,in|||SA5 (src)|||RAN
+#99,out,RAN,3GPP OPs (dst),1,1.0,0.333333,out|||RAN|||3GPP OPs (dst)
+#99,out,RAN,5G-ACIA (dst),2,2.0,1.5,out|||RAN|||5G-ACIA (dst)
+#99,out,RAN,APT Wireless Group (dst),4,4.0,4.0,out|||RAN|||APT Wireless Group (dst)
+#99,out,RAN,CT4 (dst),1,1.0,0.5,out|||RAN|||CT4 (dst)
+#99,out,RAN,ETSI TC TFES (dst),2,2.0,2.0,out|||RAN|||ETSI TC TFES (dst)
+#99,out,RAN,ITU-R WP5D/TEMP/826(Rev.1) = RP-230032 (dst),1,1.0,1.0,out|||RAN|||ITU-R WP5D/TEMP/826(Rev.1) = RP-230032 (dst)
+#99,out,RAN,PCG (dst),3,3.0,1.333333,out|||RAN|||PCG (dst)
+#99,out,RAN,RAN1 (dst),4,4.0,3.5,out|||RAN|||RAN1 (dst)
+#99,out,RAN,RAN4 (dst),2,2.0,1.5,out|||RAN|||RAN4 (dst)
+#99,out,RAN,SA (dst),7,7.0,4.833333,out|||RAN|||SA (dst)
+#99,out,RAN,SA2 (dst),1,1.0,0.5,out|||RAN|||SA2 (dst)
